@@ -17,7 +17,7 @@ public class AppInitializer implements ServletContainerInitializer{
 		// Register DispatcherServlet  
 		DispatcherServlet dispatcher = new DispatcherServlet();
 		dispatcher.setContextConfigLocation("/WEB-INF/mvc-config.xml");
-		var servlet=ctx.addServlet("dispatcher", "dispatcher");	
+		var servlet=ctx.addServlet("dispatcher", dispatcher);	
 		servlet.setLoadOnStartup(1);
 		
 		// Add Mapping
