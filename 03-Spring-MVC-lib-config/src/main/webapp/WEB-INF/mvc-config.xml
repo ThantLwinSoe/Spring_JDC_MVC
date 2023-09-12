@@ -17,5 +17,7 @@
 		<mvc:jsp prefix="/views/" suffix=".jsp"/>
 	</mvc:view-resolvers>
 	
+	<mvc:redirect-view-controller redirect-url="/" path="/jj"/>
+	
 	
 </beans>

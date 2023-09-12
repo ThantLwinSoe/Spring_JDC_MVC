@@ -18,5 +18,12 @@
 	<h1>Welcome Home Page</h1>
 	<h4>${date}</h4>
 	
+	<ul>
+		<li>
+			<app:url value="/matrixpage/T shirt;size=M;price=25000" var="matrix"></app:url>
+			<a href="${matrix}">Matrix Value!!!</a>
+		</li>
+	</ul>
+	
 </body>
 </html>
