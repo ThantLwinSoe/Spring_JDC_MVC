@@ -9,6 +9,16 @@
 </head>
 <body>
 	<h1>Welcome Home Page</h1>
+	
+	<form action="/welcome/personPage" method="get">
+		<label>User Name</label>
+		<input type="text" name="uname" placeholder="User Name"><br>
+		<label>Course</label>
+		<input type="text" name="course" placeholder="Course"><br>
+		<label>Phone Number</label>
+		<input type="text" name="pnum" placeholder="Phone Number"><br>
+		<input type="submit" value="Submit">				
+	</form>
 
 </body>
 </html>

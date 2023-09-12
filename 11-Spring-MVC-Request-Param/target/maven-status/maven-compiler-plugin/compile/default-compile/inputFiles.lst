@@ -1,3 +1,6 @@
 /home/tls/ThantLwinSoe/Spring_JDC_MVC/11-Spring-MVC-Request-Param/src/main/java/com/jdc/app/servlet/controller/AppServletController.java
 /home/tls/ThantLwinSoe/Spring_JDC_MVC/11-Spring-MVC-Request-Param/src/main/java/com/jdc/app/init/AppInit.java
+/home/tls/ThantLwinSoe/Spring_JDC_MVC/11-Spring-MVC-Request-Param/src/main/java/com/jdc/root/config/RootConfig.java
 /home/tls/ThantLwinSoe/Spring_JDC_MVC/11-Spring-MVC-Request-Param/src/main/java/com/jdc/app/servlet/config/AppServletConfig.java
+/home/tls/ThantLwinSoe/Spring_JDC_MVC/11-Spring-MVC-Request-Param/src/main/java/com/jdc/root/controller/RootController.java
+/home/tls/ThantLwinSoe/Spring_JDC_MVC/11-Spring-MVC-Request-Param/src/main/java/com/jdc/app/dto/Person.java
