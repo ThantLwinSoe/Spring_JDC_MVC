@@ -36,15 +36,22 @@ public class CourseService {
 	}
 	
 	
-	public void create(Course course) {
+	public int create(Course course) {
 		var id = generator.course_id_generate();
 		course.setId(id);
 		repo.add(course);
+		return id;
 	}
 	
 	public List<Course> get_all_courses(){
 		
 		return new ArrayList<Course>(repo);
+	}
+	
+	public Course findById(int id) {
+		Course course = repo.stream().filter( c -> c.getId() == id)
+				.findAny().orElse(null);
+		return course;
 	}
 	
 	

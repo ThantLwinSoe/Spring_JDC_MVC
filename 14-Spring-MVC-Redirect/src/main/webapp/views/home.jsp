@@ -23,7 +23,7 @@
 	.mag-head{
 		margin-left: 1rem;		
 	}
-
+	
 	.btn-cus {
 		background-color: #FFFFFF;
 		border-radius: 50px;
@@ -32,7 +32,7 @@
 </style>	
 <title>Home Page</title>
 </head>
-<body>
+<body >
 
 	<nav class="navbar text-bg-primary opacity-75">
 		<h2 class="navbar-brand text-light font-monospace mag-head">
@@ -52,29 +52,33 @@
 		</ul>
 	</nav>
 	
-	<div>
+	<div class="card mt-4 bg-body-secondary " style="width: 24rem; margin-left: auto; margin-right: auto;">
+		<div class="card-body row">
+		<div class="">
 		<form action="/admin" method="post">
-			<div>
+			<div class="mb-1">
 				<label>User Name</label>
 			</div>
-			<div>
-				<input type="text" id="userName" 
+			<div class="mb-1 ">
+				<input class="form-control" type="text" id="userName" 
 				name="userName" placeholder="User Name">
 			</div>
-			<div>
-				<li>Password</li>
+			<div class="mb-1 ">
+				<label>Password</label>
 			</div>
-			<div>
-				<input type="password" id="passw" 
+			<div class="mb-1">
+				<input class="form-control" type="password" id="passw" 
 				name="passw" placeholder="Password"/>
 			</div>
 			
 			<div>
 		<!-- 
 				<input type="submit" value="Submit">
-		 -->		<button type="submit" class="btn btn-primary mt-3">Sign In</button>
+		 -->		<button type="submit" class="btn btn-primary mt-2">Sign In</button>
 			</div>		
 		</form>
+		</div>
+		</div>
 	</div>
 	
 

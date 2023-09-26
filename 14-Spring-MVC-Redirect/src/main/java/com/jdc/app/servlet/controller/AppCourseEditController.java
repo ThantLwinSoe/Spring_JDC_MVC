@@ -20,4 +20,9 @@ public class AppCourseEditController {
 		model.addAttribute("courseList", service.get_all_courses());
 		return "course-search";
 	}
+	
+	@GetMapping("add")
+	public String addCourse() {
+		return "add-course";
+	}
 }
